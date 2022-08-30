@@ -1,0 +1,22 @@
+fastapi
+uvicorn  #uvicorn, hypercorn, gunicorn are servers that serve our API
+
+#for database
+sqlalchemy         
+psycopg2
+
+#for loading environment variables
+python-dotenv
+
+#for email validation
+pydantic[email]
+
+#Hashing
+passlib
+
+loguru
+sentry_sdk
+
+#for testing
+pytest
+requests
